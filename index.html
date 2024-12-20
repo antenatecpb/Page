@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maurício Antenista</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      background-color: #1c1c1c;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+      background: linear-gradient(45deg, #d92323, #a00000);
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .header-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      margin-right: 20px;
+    }
+
+    .logo img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+    }
+
+    .name-int h5 {
+  font-size: 1.5rem;
+  color: #ff4747;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Adicionado */
+  text-align: center; /* Adicionado */
+}
+
+    .name-int i {
+      color: #42f584;
+      margin-left: 5px;
+    }
+
+    .username h5 {
+      font-size: 1rem;
+      color: #b5b5b5;
+      text-align: center;
+    }
+
+    .icons {
+      display: flex;
+      margin-top: 10px;
+    }
+
+    .icons-int {
+      font-size: 2rem;
+      color: #d92323;
+      margin-right: 15px;
+    }
+
+    .about, .services, .contact {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .about h2, .services h2, .contact h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #ff4747;
+    }
+
+    .about p, .services ul, .contact p {
+      font-size: 1rem;
+      color: #e1e1e1;
+    }
+
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services ul li {
+      margin: 10px 0;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #25d366;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact a:hover {
+      background-color: #1aae57;
+    }
+
+    footer {
+      background: #121212;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #b5b5b5;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .header-top {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .logo {
+        margin: 0 0 15px 0;
+      }
+
+      .icons {
+        justify-content: center;
+      }
+    }
+    
+  .antenna-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+  }
+    
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header-top">
+      <div class="logo">
+        <img src="https://i.imgur.com/BCCb7la.png" alt="Maurício Antenista">
+      </div>
+      <div class="name-int">
+        <h5>Maurício Alves</h5>
+        <div class="username">
+          <h5>Soluções rápidas e eficientes<br> para sua antena!</h5>
+        </div>
+        <div class="icons">
+          <i class="icons-int">📡</i>
+           <i class="icons-int">🛰️</i>
+          <i class="icons-int">🛠️</i>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <h2>Sobre Nós</h2>
+      <p>Com anos de experiência em instalações da antiga parabólica da banda C, agora passamos a instalar o novo sistema de parabólica da banda KU e oferecer serviços de qualidade para instalação, manutenção e ajustes de antenas residenciais.</p>
+    </div>
+    <img src="https://i.imgur.com/2KONqK2.jpeg" alt="Antena logo" class="antenna-logo">
+    <div class="services">
+      <h2>Serviços Oferecidos</h2>
+      <ul>
+        <li>Instalação de antenas digitais</li>
+        <li>Manutenção preventiva e corretiva</li>
+        <li>Ajustes para melhor recepção de sinal</li>
+        <li>Consultoria técnica</li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h2>Contato</h2>
+      <p>Entre em contato conosco para agendar um serviço:</p>
+      <a href="https://wa.me/1234567890" target="_blank">Fale pelo WhatsApp</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2013-2024 Maurício Antenista.<br>Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
